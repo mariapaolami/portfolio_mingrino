@@ -1,7 +1,7 @@
 <template>
     <div>
       <h1 id="profile"></h1>
-      <p>Contattaci per maggiori informazioni.</p>
+      <p>work in progress.</p>
     </div> 
   </template>
   
