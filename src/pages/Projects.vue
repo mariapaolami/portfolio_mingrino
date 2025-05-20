@@ -2,6 +2,15 @@
   <div>
     <Navbar />
     <h1 id="projects">All My projects</h1>
+        <ul>
+      <li>
+        <router-link to="./calorie-counter">Calorie Counter</router-link>
+        <router-link to="./date-formatter">Date Formatter</router-link>
+        <router-link to="./DecimalToBinaryConverter">Decimal To Binary Converter</router-link>
+  
+      </li>
+      <!-- altri progetti -->
+    </ul>
   </div>
 </template>
 

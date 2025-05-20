@@ -1,16 +1,17 @@
 <template>
-  <div>
+  <div id="app">
     <Navbar />
     <router-view />
     <h1 v-if="$route.path === '/'" id="welcome"></h1>
+    <Footer />
   </div>
 </template>
 
 <script setup>
 import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
 import { onMounted } from 'vue'
 import TypeIt from 'typeit'
-
 onMounted(() => {
   const applyTypeIt = (selector, animationFn) => {
     const element = document.querySelector(selector)
@@ -137,5 +138,13 @@ onMounted(() => {
 </script>
 
 <style scoped>
+h1{
+  padding: 15vh;
+  margin: 15vh;
+}
+#app {
 
+  display: flex;
+  flex-direction: column;
+}
 </style>
