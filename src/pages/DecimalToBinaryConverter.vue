@@ -1,5 +1,6 @@
 <template>
   <main>
+     <button @click="$router.back()" class="back-button">← Back</button>
     <h1>Convertitore Decimale → Binario</h1>
     
     <section class="input-container">

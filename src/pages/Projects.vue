@@ -7,7 +7,10 @@
         <router-link to="./calorie-counter">Calorie Counter</router-link>
         <router-link to="./date-formatter">Date Formatter</router-link>
         <router-link to="./DecimalToBinaryConverter">Decimal To Binary Converter</router-link>
-  
+        <router-link to="./MagicBall"> Magic Ball</router-link>
+        <router-link to="/Rpg">Role Play Game</router-link>
+        <router-link to="/todo-list">To do List </router-link>
+        
       </li>
       <!-- altri progetti -->
     </ul>

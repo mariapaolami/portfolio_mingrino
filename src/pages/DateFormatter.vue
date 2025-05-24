@@ -1,5 +1,6 @@
 <template>
   <main>
+     <button @click="$router.back()" class="back-button">← Back</button>
     <div class="title-container">
       <h1 class="title">Today's Date</h1>
       <!-- SVG calendario -->

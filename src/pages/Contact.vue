@@ -1,5 +1,7 @@
 <template>
     <div>
+       <button @click="$router.back()" class="back-button">← Back</button>
+       <button @click="$router.back()" class="back-button">← Back</button>
       <h1 id="profile"></h1>
       <p>work in progress.</p>
     </div> 

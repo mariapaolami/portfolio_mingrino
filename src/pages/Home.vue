@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    
     <Navbar />
     <router-view />
      <h1 v-if="$route.path === '/'" id="welcome"></h1>

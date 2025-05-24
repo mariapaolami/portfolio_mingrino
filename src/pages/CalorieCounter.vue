@@ -1,6 +1,7 @@
 <!-- src/components/CalorieCounter.vue -->
 <template>
   <main>
+     <button @click="$router.back()" class="back-button">← Back</button>
     <h1>Calorie Counter</h1>
     <div class="container">
       <form @submit="calculateCalories" id="calorie-counter">

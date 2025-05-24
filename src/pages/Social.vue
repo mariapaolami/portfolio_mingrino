@@ -1,5 +1,5 @@
 <template>
-    <h1> Work in progress</h1>
+    <h1> CV</h1>
 </template>
 <script>
 
