@@ -1,6 +1,8 @@
 <template>
   <main>
-     <button @click="$router.back()" class="back-button">← Back</button>
+       <div class="container-button">
+      <button @click="$router.back()" class="back-button">← Back</button>
+     </div>
     <div class="title-container">
       <h1 class="title">Today's Date</h1>
       <!-- SVG calendario -->
@@ -82,6 +84,19 @@ select {
   font-size: 1.2rem;
   font-weight: 500;
   color: #333;
+}
+.container-button {
+text-align: center;
+  padding: 5rem;
+  margin: 2rem;
+}
+.back-button {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #4404f4;
+  border: 1px solid #ec0000;
+  cursor: pointer;
 }
 @media (max-width: 600px) {
   .title {

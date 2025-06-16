@@ -4,12 +4,20 @@
     <h1 id="projects">All My projects</h1>
         <ul>
       <li>
-        <router-link to="./calorie-counter">Calorie Counter</router-link>
-        <router-link to="./date-formatter">Date Formatter</router-link>
-        <router-link to="./DecimalToBinaryConverter">Decimal To Binary Converter</router-link>
-        <router-link to="./MagicBall"> Magic Ball</router-link>
-        <router-link to="/Rpg">Role Play Game</router-link>
-        <router-link to="/todo-list">To do List </router-link>
+        <h2>Calories Counter</h2>
+        <router-link to="./calorie-counter">Click here for the calorie-counter </router-link>
+    <h2>Date Formatter</h2>
+        <router-link to="./date-formatter">Click here for the date formatter</router-link>
+        <h2>Decimal To Binary Converter</h2>
+        <router-link to="./decimal-to-binary-converter">Click here for the decimal to binary converter</router-link>
+        <h2>Magic Ball</h2>
+        <router-link to="./magic-ball">Click here for the magic ball</router-link>
+        <h2>Role Play Game</h2>
+        <router-link to="./Rpg">Click here for the role play game</router-link>
+        <h2>To do List</h2>        
+        <router-link to="./todo-list">Click here for the to do list</router-link>
+
+
         
       </li>
       <!-- altri progetti -->

@@ -1,13 +1,13 @@
 <template>
   <div class="todo-app">
     <button @click="$router.back()" class="back-button">← Back</button>
-    <h1>Ma To-Do List</h1>
+    <h1>My To-Do List</h1>
     <input
       v-model="newTask"
       @keyup.enter="addTask"
       placeholder="Ajouter une tâche"
     />
-    <button @click="addTask">Ajouter</button>
+    <button @click="addTask">Add</button>
 
     <ul>
       <li v-for="(task, index) in tasks" :key="index">
@@ -86,13 +86,14 @@ function saveTask(index) {
   margin: 50px auto;
   padding: 30px;
   border-radius: 10px;
-  background: #f4f4f4;
+  background: #9e04a9;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .todo-app h1 {
   text-align: center;
-  color: #333;
+  color: #ffffff;
+  
 }
 
 .todo-app input[type="text"] {
@@ -113,7 +114,7 @@ function saveTask(index) {
 }
 
 .todo-app button:hover {
-  background-color: #369870;
+  background-color: #ffffff;
 }
 
 ul {

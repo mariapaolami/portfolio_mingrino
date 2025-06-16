@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <Navbar />
-    <router-view />
-    <h1 v-if="$route.path === '/'" id="welcome"></h1>
+    <main class="content">
+      <h1 v-if="$route.path === '/'" id="welcome">Welcome!</h1>
+      <router-view />
+    </main>
     <Footer />
   </div>
 </template>
@@ -138,13 +140,12 @@ onMounted(() => {
 </script>
 
 <style scoped>
-h1{
-  padding: 15vh;
-  margin: 15vh;
-}
 #app {
-
   display: flex;
   flex-direction: column;
+}
+
+.content {
+  margin-top: 60px; /* offset for fixed navbar */
 }
 </style>

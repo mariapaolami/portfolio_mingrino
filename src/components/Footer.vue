@@ -18,12 +18,14 @@ html, body, #app {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 #app {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: black;
 }
 
 </style>

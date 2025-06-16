@@ -1,9 +1,16 @@
-<!-- src/components/CalorieCounter.vue -->
+<!-- src/pages/CalorieCounter.vue -->
 <template>
   <main>
-     <button @click="$router.back()" class="back-button">← Back</button>
-    <h1>Calorie Counter</h1>
-    <div class="container">
+     <div class="container-button">
+      <button @click="$router.back()" class="back-button">← Back</button>
+     </div>
+     <div class="container">  
+       <h1>Calorie Counter</h1>
+    <p>
+      This is a simple calorie counter that allows you to track your daily calorie intake and exercise.
+      You can set a daily budget and add entries for meals and exercises. The app will calculate the remaining calories based on your budget, consumed calories, and exercise.</p>
+
+
       <form @submit="calculateCalories" id="calorie-counter">
         <label for="budget">Budget</label>
         <input
@@ -124,8 +131,16 @@ const calculateCalories = (e) => {
 </script>
 
 <style scoped>
+main {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+}
 .container {
-  margin-top: 1rem;
+  margin-top: 5rem;
+  padding: 5px;
+  color: red;
+  background-color: #000000;
 }
 .output {
   margin-top: 1rem;
@@ -136,4 +151,18 @@ const calculateCalories = (e) => {
 .deficit {
   color: red;
 }
+.container-button {
+text-align: center;
+  padding: 5rem;
+  margin: 2rem;
+}
+.back-button {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #4404f4;
+  border: 1px solid #ec0000;
+  cursor: pointer;
+}
+
 </style>

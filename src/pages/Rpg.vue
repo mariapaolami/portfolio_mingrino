@@ -2,7 +2,7 @@
 
   <div class="rpg-game">
        <button @click="$router.back()" class="back-button">← Back</button>
-    <h1>Simple RPG Shop Edition</h1>
+    <h1>Simple RPG</h1>
     <p>💖 Player HP: {{ playerHealth }}</p>
     <p>💀 Monster HP: {{ monsterHealth }}</p>
     <p>💰 Gold: {{ gold }}</p>
