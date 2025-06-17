@@ -9,7 +9,8 @@ import Rpg from './pages/Rpg.vue';
 import TodoList from './pages/ToDoList.vue';
 import MagicBall from './pages/MagicBall.vue';
 import DecimalToBinaryConverter from './pages/DecimalToBinaryConverter.vue';
-
+import Cv from './pages/Cv.vue';
+// Importing components for the routes
 const routes = [
   { path: '/', component: Home },
   { path: '/projects', component: Projects },
@@ -21,6 +22,7 @@ const routes = [
   { path: '/rpg', name: 'Rpg', component: Rpg },
   { path: '/todo-list', name: 'TodoList', component: TodoList },
   { path: '/magic-ball', name: 'MagicBall', component: MagicBall },
+  { path: '/cv', name: 'Cv', component: Cv ,}
 ];
 
 const router = createRouter({

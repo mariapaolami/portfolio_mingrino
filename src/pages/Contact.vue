@@ -2,11 +2,34 @@
     <div>
   
       <h1 id="profile"></h1>
-      <p>work in progress.</p>
+      <li>
+             <ul>
+              <router-link to="./cv">CV</router-link>
+             </ul>
+    <ul>
+      <a href="https://github.com/mariapaolami" target="_blank" rel="noopener" class="diploma-link">
+         <img :src="gitHub" alt="githubimg" class="photo" />github</a>
+      
+    </ul>
+        <ul>
+      <a href="https://www.freecodecamp.org/MaryGothique" target="_blank" rel="noopener" class="diploma-link">
+         <img :src="FCC" alt="FCC" class="photo" />FreeCodeCamp</a>
+      
+    </ul>
+            <ul>
+      <a href="https://www.linkedin.com/in/maria-paola-mingrino/" target="_blank" rel="noopener" class="diploma-link">
+         <img :src="linkedIn" alt="Linkedin" class="photo" />linkedin </a>
+      
+    </ul>
+      </li>
+ 
     </div> 
   </template>
   
 <script setup>
+import gitHub from '../assets/GitHub-Mark.png'
+import FCC from '../assets/FreeCodeCamp_logo.png'
+import linkedIn from '../assets/linked-in.png'
 import { onMounted } from 'vue'
 import TypeIt from 'typeit'
 
