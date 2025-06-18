@@ -78,11 +78,12 @@ h1 {
 }
 
 h2 {
-  margin: 18px 0 10px 0;
+margin: 18px 0 10px 0;
   color: #daa9fc;
   font-size: 1.2em;
   text-align: center;
   font-weight: 400;
+  border-radius: 50%;
 }
 
 .ball {

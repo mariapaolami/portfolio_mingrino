@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-// Niente qui, è solo un componente SVG
+
 </script>
 
 <style scoped>

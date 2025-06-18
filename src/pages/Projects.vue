@@ -16,15 +16,11 @@
         <router-link to="./Rpg">Click here for the role play game</router-link>
         <h2>To do List</h2>        
         <router-link to="./todo-list">Click here for the to do list</router-link>
-
-
         
       </li>
-      <!-- altri progetti -->
     </ul>
   </div>
 </template>
-
 <script setup>
 import { onMounted } from 'vue'
 import Navbar from '../components/Navbar.vue'

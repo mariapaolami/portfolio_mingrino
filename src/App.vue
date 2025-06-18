@@ -18,7 +18,7 @@ onMounted(() => {
 const applyTypeIt = (selector, animationFn) => {
   const element = document.querySelector(selector)
   if (element) {
-    element.textContent = "" // Pulisce l'elemento
+    element.textContent = "" 
     const instance = new TypeIt(selector, { lifeLike: false, speed: 0 })
     animationFn(instance)
     instance.go()
@@ -148,6 +148,6 @@ const applyTypeIt = (selector, animationFn) => {
 }
 
 .content {
-  margin-top: 60px; /* offset for fixed navbar */
+  margin-top: 60px; 
 }
 </style>

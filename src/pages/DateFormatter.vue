@@ -5,7 +5,7 @@
      </div>
     <div class="title-container">
       <h1 class="title">Today's Date</h1>
-      <!-- SVG calendario -->
+      <!-- SVG calendar -->
       <CalendarIcon />
     </div>
 
@@ -56,7 +56,7 @@ const formattedDate = computed(() => {
 </script>
 
 <style scoped>
-/* Prendi pure il tuo file CSS styles.css e incollalo qui */
+
 .title {
   font-size: 2rem;
   font-weight: bold;
@@ -67,9 +67,10 @@ const formattedDate = computed(() => {
   margin: 1rem 0;
 }
 .dropdown-container {
-  position: relative;
-  display: flex;
+display: flex;
   align-items: center;
+  accent-color: bisque;
+  justify-content: center;
 }
 select {
   padding: 0.5rem;
@@ -80,14 +81,14 @@ select {
   pointer-events: none;
 }
 #current-date {
-  margin-top: 1rem;
-  font-size: 1.2rem;
+margin: 5rem;
+  font-size: 2rem;
   font-weight: 500;
-  color: #333;
+  color: #ffe6e6;
 }
 .container-button {
 text-align: center;
-  padding: 5rem;
+  padding: 2rem;
   margin: 2rem;
 }
 .back-button {

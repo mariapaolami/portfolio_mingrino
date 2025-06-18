@@ -153,8 +153,8 @@ main {
 }
 .container-button {
 text-align: center;
-  padding: 5rem;
-  margin: 2rem;
+  padding: 1rem;
+  margin: 1rem;
 }
 .back-button {
   display: inline-block;

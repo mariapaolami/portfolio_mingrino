@@ -1,6 +1,6 @@
 // main.js
 import { createApp } from 'vue';
-import App from './src/App.vue'; // Aggiorna il percorso se necessario
+import App from './src/App.vue'; 
 import router from './src/router';
 
 

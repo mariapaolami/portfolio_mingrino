@@ -7,7 +7,7 @@
         v-model="numberInput"
         type="number"
         min="0"
-        placeholder="Inserisci un numero decimale"
+        placeholder="Please enter a decimal number (>= 0)"
       />
       <button @click="checkUserInput">Convert</button>
       <div v-if="result !== ''" class="result">
@@ -34,7 +34,7 @@ function checkUserInput() {
     result.value = n.toString(2)
   } else {
     result.value = ''
-    error.value = 'Inserisci un numero decimale valido (>= 0)'
+    error.value = 'Please enter a valid decimal number (>= 0)'
   }
 }
 </script>
