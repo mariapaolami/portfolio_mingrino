@@ -15,14 +15,16 @@ import Footer from './components/Footer.vue'
 import { onMounted } from 'vue'
 import TypeIt from 'typeit'
 onMounted(() => {
-  const applyTypeIt = (selector, animationFn) => {
-    const element = document.querySelector(selector)
-    if (element) {
-      const instance = new TypeIt(selector, { lifeLike: false, speed: 0 })
-      animationFn(instance)
-      instance.go()
-    }
+const applyTypeIt = (selector, animationFn) => {
+  const element = document.querySelector(selector)
+  if (element) {
+    element.textContent = "" // Pulisce l'elemento
+    const instance = new TypeIt(selector, { lifeLike: false, speed: 0 })
+    animationFn(instance)
+    instance.go()
   }
+}
+
 
   const animations = {
     "#welcome": (instance) => {
